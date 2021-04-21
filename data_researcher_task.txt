@@ -1,0 +1,11 @@
+Using Python, implement a small script that can be used to download the Consumer Expenditure Public Use Microdata (PUMD) from the Bureau of Labor statistics for an arbitrary year.
+
+At minimum, the script should require a year as an input. It should run non-interactively. All data is available on the BLS website: https://www.bls.gov
+
+The script should perform the following tasks:
+1. Download the "Diary" PUMD file for the requested year in CSV format.
+2. Extract the first file prefixed with 'expd'; for example, 'expd161.csv' for the 2016 data.
+3. Print all distinct values for the 'NEWID' column in the expd file.
+4. Compress the expd file in a new zip archive. The archive name should be the file name with an additional zip extension, for example 'expd161.csv.zip'
+
+
